@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Inter&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.svg" type="image/x-icon">
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="./lib/vendors/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Assets/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./Assets/Bootstrap/css/bootstrap.min.css">
+
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/styles.css">
+   
+    <link href="./Assets/glightboGraphicsightbox.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-sm  mx-auto flex justify-between fixed-top">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/favicon.svg" width="30" height="30" alt="Logo">
+          </a>
+          <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" onclick="toggleHamburger(this)">
+            <span class="hamburger-box">
+              <span class="hamburger-inner">
+              </span>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav d-flex mx-auto  gap-1">
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./work.html">Leaderboard</a>
+              </li>
+            </ul>
+            <a class=" btn navbar-form my-3" href="mailto:baineux.ui@gmail.com" target="_blank">Login<span class=""></span></a>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<!-- Content Section -->
+<main>
+  <section class="content mx-auto">
+    <div class="container my-5">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-6">
+          <h1 class="wow fadeInUp">Plastic Pledge</h1>
+          <p class="wow fadeInUp lh-lg" data-wow-delay="0.2s">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero nisi, exercitationem veniam amet delectus vel numquam molestiae voluptas facere voluptates, dolores distinctio cumque aliquam asperiores assumenda consequatur quas rem cupiditate.
+          </p>
+          <a href="https://www.instagram.com/baine_dsgn/" class="btn email wow fadeIn" role="button" data-wow-delay="0.7s">Sign Up<i class="bi bi-arrow-up-right"></i></a>
+        </div>
+        <!-- Right Column with Google Map -->
+        <div class="col-lg-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Work Posts -->
+<main class="work-page-wrapper" >
+<section class="work mx-auto">
+  <div class="container">
+      <h2 class="mb-2 work-title wow fadeInUp" data-wow-delay="0.2s">830,000 tonnes of plastic waste</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias adipisci, consequuntur cumque cupiditate a eos dignissimos, voluptates accusantium omnis reiciendis, vitae aut qui velit?</p>
+    <div class="row">
+      <div class="col-lg-10 work-post-archive">
+      <article classF="media work-post wow fadeInUp" data-wow-delay="0.5s">
+         <div class="media-body">
+        <p class="work-post-excerpt"></p>
+        <a href="youngeye.html" class="btn work-post-link" role="button">Learn more</a>
+    </div>
+    </article>
+  </div>
+</div>
+</div>
+</section>
+</main>
+
+<!-- JavaScript Libraries -->
+<script src="./Assets/jquery/jquery.js"></script>
+<script src="./Assets/popper.js/popper.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./Assets/glightbox/js/glightbox.js"></script>
+<script src="./Assets/wowjs/wow.min.js"></script>
+<script src="./JS/main.js"></script>
+
+    <script>
+          new WOW().init();
+    </script>
+    
+</body>
+</html>
