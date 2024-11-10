@@ -1,0 +1,217 @@
+body{
+  background-color: #1A4E42;
+}
+/* Fonts */
+@font-face {
+  font-family: 'inter'; 
+  src: url('../Fonts/inter/Inter-Regular.ttf')
+}
+@font-face {
+  font-family: 'germania'; 
+  src: url('../fonts/germania-one/GermaniaOne-Regular.ttf')
+}
+
+a{
+    text-decoration:none;
+    color: white;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: .75rem;
+  max-width: 700px;
+  background-color: #1A4E42;
+}
+.navbar-brand{
+  padding-left: 14px;
+}
+ .navbar-toggler{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.items-center{
+  align-items: center;
+}
+
+.nav-link{
+  color: #adadad;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav-link:hover{
+ color: #fff;
+}
+.navbar-form{
+  color: white;
+  font-family: 'Lilita One', system-ui;
+}
+.navbar .btn{
+  transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s;
+  transition:all 4.s ease-in-out;
+}
+.navbar .btn{
+  background-color: white;
+  color: #000000;
+}
+
+ .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .nav-link{
+    padding-left: 14px;
+  }
+  .navbar-form{
+    margin-left: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-link{
+    padding-left: 14px;
+  }
+  .navbar-form{
+    margin-left: 12px;
+  }
+}
+
+/* Content Section */
+.content{
+  max-width: 700px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 110px;
+}
+.content h1{
+  color: white;
+  font-family: 'Lilita One', system-ui;
+  font-size: 40px;
+}
+
+.content p{
+  color: #b4b4b4;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+.content .btn{
+  background-color: #191919;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.content .flex-row{
+  flex-direction: row;
+}
+.content a{
+  color: #adadad;
+}
+.bi{
+  font-size: 13px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .content .btn{
+    background-color: #191919;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+/* Work Section */
+.work{
+  max-width: 700px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 75px;
+}
+.media{
+  display: flex;
+  align-items: start;
+}
+.work-post-archive .work-post-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #312c2c;
+  margin-bottom: 14px; 
+}
+.work-title{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+.work-post-archive img{
+border-radius: 8px;
+}
+.work-post-archive .work-post {
+  margin-bottom: 73px;
+  max-width: 570px; }
+  @media (max-width: 767px) {
+    .work-post-archive .work-post {
+      display: block; } }
+  .work-post-archive .work-post-thumbnail {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 25px; }
+    @media (min-width: 768px) {
+      .work-post-archive .work-post-thumbnail {
+        width: 168px;
+        height: 141px;
+        margin-right: 25px;
+        align-self: center; } }
+  .work-post-archive .work-post-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #ffffff;
+    margin-bottom: 14px; 
+  }
+  .work-post-archive .work-post-excerpt {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #adadad;
+    margin-bottom: 13px; 
+  }
+  .work-post-archive  .work-post-link {
+    font-size: 14px;
+      font-weight: 600;
+      background-color:white;
+      color:#000000; 
+      font-family: 'Inter', sans-serif;
+  }
+
+  .work-post-archive .btn::after {
+    content: "\2192";
+    margin-left: 6px;
+    transition: transform 0.4s ease;
+    display: inline-block; }
+    .work-post-archive .btn:hover {
+    text-decoration: none; }
+    .work-post-archive .btn:hover::after {
+      transform: translateX(5px); }
